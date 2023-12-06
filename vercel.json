@@ -14,13 +14,12 @@
       "dest": "/$1"
     },
     {
-      "src":"/Travel/assets(.*)",
+      "src":"/Travel/assets/(.*)",
       "dest":"/Travel/assets/$1"
     },
     {
-      "src":"/Travel/Guide(.*)",
+      "src":"/Travel/Guide/(.*)",
       "dest":"/Travel/Guide/$1"
-    },
-    
+    }
   ]
 }
