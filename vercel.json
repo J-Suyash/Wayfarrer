@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/India/(.*)",
+      "dest": "/India/$1"
+    },
+    {
+      "src": "/Travel/(.*)",
+      "dest": "/Travel/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
